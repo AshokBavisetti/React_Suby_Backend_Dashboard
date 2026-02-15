@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+.navSection{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  background-color:rgb(24, 7, 206);
+  padding: 0 20px;
+  font-size: large;
+  cursor: pointer;
+
+
+}
+.sideBarSection{
+  width: 100%;
+  max-width: 15%;
+  height: 95vh;
+  padding-top:10px;
+  background-color: rgb(188, 206, 200);
+    height: calc(100vh - 50px);
+
+  
+}
+.sideBarSection ul li {
+list-style-type: none;
+margin-bottom: 20px;
+font-weight: 500;
+font-size: medium;
+cursor: pointer;
+}
+
+/* Login section */
+.loginSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.loginSection button{
+  margin-top: 20px;
+}
+.registerSection{
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authForm label{
+  margin-top: 10px;
+  width:100%;
+  max-width:75%;
+  font-weight: 400;
+  align-items: flex-start;
+
+
+}
+.collectionSection{
+  display: flex;
+  
+}
+.authForm{
+  position: relative;
+  top:70px;
+  background-color: rgb(160, 212, 212);
+  border: 1px solid gray;
+  border-radius: 10px;
+  width:100%;
+  max-width:30%;
+  margin-top: -300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.authForm input{
+  width: 100%;
+  max-width: 75%;
+  height: 1.4rem;
+}
+.btnSubmit button{
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background-color: blue;
+  width: 50px;
+  height: 20px;
+  color: white;
+}
+
+/* firmSection AddFirm */
+
+.firmSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableForm{
+      background-color: rgb(160, 212, 212);
+  border-radius: 10px;
+  width:100%;
+  max-width:45%;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.tableForm input{
+  width: 100%;
+  max-width: 60%;
+  height: 1.6rem;
+
+}
+.tableForm label{
+  width:100%;
+  max-width:60%;
+  font-weight: 700;
+
+}
+.AddFirm{
+  margin-top: 10px;
+}
+
+.Vendor-Top{
+margin-top: 20px;
+}
+/* check box inputs */
+.checkInp{
+  width: 100%;
+  max-width: 60%;
+  display: inline-block;
+  justify-content: center;
+
+}
+.checkInp label{
+  width :20%
+}
+.inputContainer{
+  width: 100%;
+      display: flex;
+      margin-left: 20px;
+
+
+}
+.checkboxContainer{
+  width: 100%;
+  max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.checkboxContainer label{
+  width: 100%;
+  font-size: small;
+
+}
+.checkboxContainer input{
+  margin-top: 10px;
+margin-left: -50px;
+}
+.regBoxContainer label{
+      font-size: small;
+
+}
+/* product tabel */
+
+.table-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-table {
+  width: 80%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-table thead {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.product-table th {
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.product-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.product-table tbody tr:hover {
+  background-color: #f4f6f9;
+  transition: 0.3s ease;
+}
+
+.product-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.delete-btn {
+  padding: 6px 14px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.no-products {
+  font-size: 18px;
+  color: #777;
+}
+.errorSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.errorSection h1 {
+  font-size: 120px;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.errorText {
+  font-size: 28px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.errorSection a {
+  text-decoration: none;
+}
+
+.errorSection a p {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: #243b55;
+  color: white;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.errorSection a p:hover {
+  background-color: #141e30;
+  transform: translateY(-2px);
+}
+
